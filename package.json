@@ -1,0 +1,19 @@
+{
+  "name": "express_api",
+  "version": "1.0.0",
+  "description": "My first API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietadelgado/express_api.git"
+  },
+  "author": "Julieta Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julietadelgado/express_api/issues"
+  },
+  "homepage": "https://github.com/julietadelgado/express_api#readme"
+}
