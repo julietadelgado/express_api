@@ -42,6 +42,13 @@ app.put('/v1/explorers/:id', (req,res) => {
     res.status(200).json({message: 'Updated!'})
 })
 
+app.delete('/v1/explorers/:id', (req, res) => {
+    console.log(`Api Explorers DELETE request ${new Date()}`)
+    console.log(`DELETE explorer with id ${req.params.id}`)
+    const requestBody = req.body // Params of a client
+    res.status(200).json({message: 'Deleted'})
+})
+
 // Initial path, this path will respond to the url localhost:3000
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
