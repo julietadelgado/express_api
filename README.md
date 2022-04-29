@@ -55,8 +55,5 @@ app.delete('/v1/explorers/:id', (req, res) => {
 4. Download the following file: [LaunchX.postman_collection.json (1).zip](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS/files/8515523/LaunchX.postman_collection.json.1.zip)
 
 5. In Postman import the downloaded file. (It contains all the requests necessary for this practice)
-
-![test](https://user-images.githubusercontent.com/17634377/163704544-ae9ef6c4-3e25-4481-a483-3cfaefe27e5c.gif)
-
 6. Test each URL on Postman.
 7. Verify that it answers the expected information and status.
